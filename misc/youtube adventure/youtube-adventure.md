@@ -4,9 +4,11 @@
 
 **Challenge Description:**
 
-My flag seems to have been scattered across YouTube! Can you find it and piece it together for me? Starting link: [https://youtu.be/wKz32opINzo](https://youtu.be/wKz32opINzo)
+My flag seems to have been scattered across YouTube! Can you find it and piece it together for me? 
 
-## Solution
+Starting link: [https://youtu.be/wKz32opINzo](https://youtu.be/wKz32opINzo)
+
+## Solution:
 
 **Quest 1:**
 > Link: [https://youtu.be/wKz32opINzo](https://youtu.be/wKz32opINzo)
@@ -14,7 +16,7 @@ My flag seems to have been scattered across YouTube! Can you find it and piece i
 Looking at the video, we see a pipe maze, and after solving it, we see color orange is the correct answer.
 <img width="973" height="981" alt="Screenshot 2026-08-03 140159" src="https://github.com/user-attachments/assets/459cdbf1-7feb-4303-a392-4a175241a087" />
 
-Looking at the description of the video, we see hidden text, and since orange is the correct answer, we record **bUB**.
+Looking at the description of the video, we see some text, and since orange is the correct answer, we record **bUB**.
 <img width="1807" height="639" alt="image" src="https://github.com/user-attachments/assets/5ce4a302-3b9f-40ac-851a-961dc3235a28" />
 ```
 Lorem ipsum dolor sit amet...
@@ -55,7 +57,7 @@ Also, by scrolling down in the description, we find the link to Quest 4.
 **Quest 4:**
 > Link: [https://www.youtube.com/watch?v=znqPQdxS_8U](https://www.youtube.com/watch?v=znqPQdxS_8U)
 
-By looking in the description, we see the text **TAx**.
+By looking in the comments, we see the text **TAx**.
 
 When the video loads, you see a black screen with a link, but it disappears. You can use a tool like [YouTube Thumbnail Grabber](https://youtube-thumbnail-grabber.com/) to get the next link.
 
@@ -106,7 +108,7 @@ By combining the parts and adding a closing curly brace, we get the flag: **LITC
 
 ## Summary:
 
-| Link | Flag Part | Path to Next |
+| Link | Flag Part | Path to Next Quest |
 |---|---|---|
 | [Quest 1](https://youtu.be/wKz32opINzo) | bUB | In Subtitles |
 | [Quest 2](https://youtu.be/p1OGNSLqnZI) | TdD | Find Correct Link in Video |

@@ -30,8 +30,8 @@ Description: There were 34 challenges, and they were definitely on the easier si
 | • any secrets could instantly [be] imparted | 374 | 115 | 🟢 Easy |
 | • double disguise | 365 | 115 | 🟢 Easy |
 | • faulty image 1 haha | 275 | 120 | 🟡 Medium |
-| • faulty image 3 | 253 | 122 | 🟠 Hard |
-| • faulty image 4 | 245 | 122 | 🟠 Hard |
+| • faulty image 3 | 253 | 122 | 🟡 Medium |
+| • faulty image 4 | 245 | 122 | 🟡 Medium |
 | • faulty image 2 | 186 | 129 | 🟡 Medium |
 | • carnival game | 170 | 132 | 🟡 Medium |
 | • extremely original | 107 | 150 | 🔴 Extra Hard |

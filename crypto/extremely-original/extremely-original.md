@@ -20,7 +20,7 @@ Next, we can notice that all the characters are from the base64 alphabet. So we 
 
 **Step 2: Convert to Base64**
 
-I wrote [convert.py](convert.py) to convert them.
+I wrote [convert.py](scripts/convert.py) to convert them.
 
 Output:
 ```bash
@@ -49,7 +49,7 @@ Thus, by xoring the plaintext and ciphertext using a tool like [XOR Calculator](
 | 20 | 19 | 7 |
 | 43 | 5 | 46 |
 
-I also wrote [xor.py](xor.py) to do this calculation.
+I also wrote [xor.py](scripts/xor.py) to do this calculation.
 ```bash
 python3 xor.py
 Known Key: [35, 58, 29, 60, 7, 46]
@@ -65,7 +65,7 @@ Essentially, it means you multiply the last number by a certain amount, add a ce
 We can mathematically derive the answer, but since the modulus is 64 because we are going to map it back to base64 characters, and a and c are less than 64, then we only need to brute-force 64^2 possibilities, which is only 4096.
 To brute-force, we just need to check if each pair of a and c is valid such that they generate the key values we already know. For example, (35*a+c)%64=58, (58*a+c)%64=29, etc.
 
-I wrote [brute.py](brute.py) to find the LCG parameters.
+I wrote [brute.py](scripts/brute.py) to find the LCG parameters.
 ```bash
 python3 brute.py
 LCG Parameters: a = 21, c = 27, m = 64
@@ -79,7 +79,7 @@ To recover the LCG, we continue to calculate the key. We do (46*21+27)%64=33, th
 
 After this, we just XOR the key with the ciphertext and map it back to base64 such that 1 -> A, 2 -> B, etc.
 
-I wrote [recover.py](recover.py) to recover the flag.
+I wrote [recover.py](scripts/recover.py) to recover the flag.
 
 ```bash
 python3 recover.py

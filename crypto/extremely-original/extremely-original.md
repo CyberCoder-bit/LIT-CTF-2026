@@ -66,6 +66,7 @@ LCG Formula: $$X_{n+1} = (a X_n + c) \pmod{m}$$
 Essentially, it means you multiply the last number by a certain amount, add a certain amount, and then mod it to get the answer.
 
 We can mathematically derive the answer, but since the modulus is 64 because we are going to map it back to base64 characters, and a and c are less than 64, then we only need to brute-force 64^2 possibilities, which is only 4096.
+
 To brute-force, we just need to check if each pair of a and c is valid such that they generate the key values we already know. For example, (35*a+c)%64=58, (58*a+c)%64=29, etc.
 
 I wrote [brute.py](scripts/brute.py) to find the LCG parameters.
@@ -80,7 +81,7 @@ LCG Parameters: a = 21, c = 27, m = 64
 
 After this, we can use the LCG params we recovered to get the rest of the key and then use this key to recover the flag by XORing it and converting it back to characters.
 
-To recover the LCG, we continue to calculate the key. We do (46*21+27)%64=33, then (33*21+27)=16, etc.
+To recover the LCG, we continue to calculate the key. We do $(46 \times 21 + 27) \bmod 64 = 33$, then $(33 \times 21 + 27) \bmod 64 = 16$, etc.
 
 After this, we just XOR the key with the ciphertext and map it back to base64 such that 1 -> A, 2 -> B, etc.
 

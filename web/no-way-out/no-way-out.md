@@ -12,7 +12,7 @@ I made a google form for fun! Check it out:
 
 **Step 1:**
 
-We see a page asking for the first part of the flag. By inspecting the page, we see in ```FB_PUBLIC_LOAD_DATA_``` we can see the first part of the flag, which is **LITCTF{y0u_**.
+We see a page asking for the first part of the flag. By inspecting the page, we see the first part of the flag in ```FB_PUBLIC_LOAD_DATA_```, which is **LITCTF{y0u_**.
 
 <img width="1965" height="610" alt="image" src="https://github.com/user-attachments/assets/3950e67f-3976-4b7f-b997-e087ae1b52e3" />
 

@@ -34,7 +34,7 @@ Description: There were 34 challenges, and they were definitely on the easier si
 | • faulty image 4 | 245 | 122 | 🟡 Medium |
 | • faulty image 2 | 186 | 129 | 🟡 Medium |
 | • carnival game | 170 | 132 | 🟡 Medium |
-| ✎ extremely original | 107 | 150 | 🔴 Extra Hard |
+| ✎ [extremely original](crypto/extremely-original/extremely-original.md) | 107 | 150 | 🔴 Extra Hard |
 
 **misc**
 | Challenge | Solves | Points | Difficulty |
@@ -47,7 +47,7 @@ Description: There were 34 challenges, and they were definitely on the easier si
 | • space radiation | 218 | 125 | 🟡 Medium |
 | • one does not simply hide a flag | 174 | 131 | 🟡 Medium |
 | • read the rules | 128 | 142 | 🟠 Hard |
-| ✎ youtube adventure | 101 | 153 | 🟠 Hard |
+| ✎ [youtube adventure](misc/youtube-adventure/youtube-adventure.md) | 101 | 153 | 🟠 Hard |
 
 
 **pwn**

@@ -58,6 +58,7 @@ Known Key: [35, 58, 29, 60, 7, 46]
 ```
 
 **Step 4: Reversing LCG**
+
 Now that we have the first part of the key, we need to reverse the LCG and calculate the rest of it.
 
 LCG Formula: $$X_{n+1} = (a X_n + c) \pmod{m}$$

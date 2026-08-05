@@ -4,9 +4,7 @@
 
 **Challenge Description:**
 
-My flag seems to have been scattered across YouTube! Can you find it and piece it together for me? 
-
-Starting link: [https://youtu.be/wKz32opINzo](https://youtu.be/wKz32opINzo)
+My flag seems to have been scattered across YouTube! Can you find it and piece it together for me? Starting link: [https://youtu.be/wKz32opINzo](https://youtu.be/wKz32opINzo)
 
 ## Solution:
 

@@ -59,6 +59,9 @@ Also, by scrolling down in the description, we find the link to Quest 4.
 
 By looking in the comments, we see the text **TAx**.
 
+<img width="1806" height="495" alt="image" src="https://github.com/user-attachments/assets/584856ba-7a29-45ca-a935-4ced3e3c9963" />
+
+
 When the video loads, you see a black screen with a link, but it disappears. You can use a tool like [YouTube Thumbnail Grabber](https://youtube-thumbnail-grabber.com/) to get the thumbnail and the next link
 
 <img width="480" height="360" alt="thumbnail" src="https://github.com/user-attachments/assets/389d46ab-6d74-41e5-b84c-b17016538fb5" />

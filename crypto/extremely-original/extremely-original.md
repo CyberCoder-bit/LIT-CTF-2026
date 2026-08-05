@@ -81,7 +81,7 @@ LCG Parameters: a = 21, c = 27, m = 64
 
 After this, we can use the LCG params we recovered to get the rest of the key and then use this key to recover the flag by XORing it and converting it back to characters.
 
-To recover the LCG, we continue to calculate the key. We do $(46 \times 21 + 27) \bmod 64 = 33$, then $(33 \times 21 + 27) \bmod 64 = 16$, etc.
+To recover the LCG, we continue to calculate the key based on the previous values using the formula. We do $(46 \times 21 + 27) \bmod 64 = 33$, then $(33 \times 21 + 27) \bmod 64 = 16$, etc.
 
 After this, we just XOR the key with the ciphertext and map it back to base64 such that 1 -> A, 2 -> B, etc.
 

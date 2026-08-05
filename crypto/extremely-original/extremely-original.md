@@ -67,7 +67,7 @@ Essentially, it means you multiply the last number by a certain amount, add a ce
 
 We can mathematically derive the answer, but since the modulus is 64 because we are going to map it back to base64 characters, and a and c are less than 64, then we only need to brute-force 64^2 possibilities, which is only 4096.
 
-To brute-force, we just need to check if each pair of a and c is valid such that they generate the key values we already know. For example, (35*a+c)%64=58, (58*a+c)%64=29, etc.
+To brute-force, we just need to check if each pair of a and c is valid such that they generate the key values we already know. For example, $(35 a + c) \bmod 64 = 58$, $(58 a + c) \bmod 64 = 29$, etc.
 
 I wrote [brute.py](scripts/brute.py) to find the LCG parameters.
 

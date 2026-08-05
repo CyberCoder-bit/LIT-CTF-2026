@@ -1,4 +1,4 @@
-# LIT CTF 2026 - Extremely Original Write-Up - Cryptography
+# LIT CTF 2026 - Youtube Adventure Write-Up - Miscellaneous
 
 > Author: Ninjaprime
 

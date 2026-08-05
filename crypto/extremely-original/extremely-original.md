@@ -102,10 +102,10 @@ After adding the curly braces, the final flag is: **LITCTF{tH3+XOR+fuNct10n+1s/n
 I have combined all the steps into [solve.py](solve.py).
 
 In conclusion, here is a summary of the steps:
-1. Convert everything to indices based on the base64 alphabet
-2. XOR it with the known plaintext to get the start of the key
-3. Use the start of the key to get LCG parameters
-4. Use LCG parameters to get the rest of the key
-5. Use the key to decode the ciphertext
-6. Convert from indices back to base64 alphabet
-7. Add curly braces and get **LITCTF{tH3+XOR+fuNct10n+1s/n0t+s4F3}**
+1. Convert everything to indices based on the base64 alphabet.
+2. XOR it with the known plaintext to get the start of the key.
+3. Use the start of the key to get LCG parameters.
+4. Use LCG parameters to get the rest of the key.
+5. Use the key to decode the ciphertext.
+6. Convert from indices back to base64 alphabet.
+7. Add curly braces and get **LITCTF{tH3+XOR+fuNct10n+1s/n0t+s4F3}**.

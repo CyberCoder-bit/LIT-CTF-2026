@@ -56,8 +56,8 @@ After this, we get the rest of the flag, which comes in the following parts:
 After this, we have to combine all the parts of the flag to get **LITCTF{y0u_3sc4ped_th3_f0rm_6bq3}**.
 
 ## Summary:
-1. Inspect FB_PUBLIC_LOAD_DATA_ to get ```LITCTF{y0u_```
-2. Inspect FB_PUBLIC_LOAD_DATA_ and find the correct letter to get ```3sc4ped```
-3. Edit pageHistory and go back to get ```_th3_f0rm_6bq3}```
+1. Inspect FB_PUBLIC_LOAD_DATA_ to get ```LITCTF{y0u_```.
+2. Inspect FB_PUBLIC_LOAD_DATA_ and find the correct letter to get ```3sc4ped```.
+3. Edit pageHistory and go back to get ```_th3_f0rm_6bq3}```.
 
 Flag: **LITCTF{y0u_3sc4ped_th3_f0rm_6bq3}**
